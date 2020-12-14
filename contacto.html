@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Everest ¡un mundo por descubrir!</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- Main Menu-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo_everest.png" class="img-fluid" alt="Logo Everest">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rutas.html">RUTAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact form -->
+    <form id="contact-form" class="container">
+        <div class="form-group">
+            <label for="inputName">Nombre</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+        </div>
+        <div class="form-group">
+            <label for="inputUsername">Usuario (opcional)</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                </div>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Usuario">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputSelect">Nivel de escalador</label>
+            <select class="form-control" id="inputSelect">
+                <option>Nunca he escalado</option>
+                <option>Principiante</option>
+                <option>Intermedio</option>
+                <option>Profesional</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu dirección de correo electrónico
+                con
+                nadie.</small>
+        </div>
+        <div class="form-group">
+            <label for="inputTextArea">Motivo del contacto</label>
+            <textarea class="form-control" id="inputTextArea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="inputFile">Adjuntar imagen (opcional)</label>
+            <input type="file" class="form-control-file" id="inputFile">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="inputCheck">
+            <label class="form-check-label" for="inputCheck">Entiendo que mis datos nunca serán almacenados.</label>
+        </div>
+        <button type="submit" id="btn-contact" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <!-- Footer -->
+    <footer id="footer-evt" class="container-fluid">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">QUIÉNES SOMOS</h6>
+                <p class="text-justify">Somos un grupo de personas amantes de la naturaleza y más concretamente, del
+                    Everest y queremos que personas, con las condiciones físicas y psicológicas adecuadas para ello,
+                    también puedan ir a descubrirlo.</p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">ENLACES RÁPIDOS</h6>
+                <p>
+                    <a href="index.html">INICIO</a>
+                </p>
+                <p>
+                    <a href="rutas.html">RUTAS</a>
+                </p>
+                <p>
+                    <a href="contacto.html">CONTACTO</a>
+                </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">ENLACES EXTERNOS</h6>
+                <p>
+                    <a href="#!">Comprar equipos de escalada</a>
+                </p>
+                <p>
+                    <a href="#!">Consejos de escalada</a>
+                </p>
+                <p>
+                    <a href="#!">Agencia de viajes</a>
+                </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">CONTACTA CON NOSOTROS</h6>
+                <p>
+                    <a href="contacto.html"><i class="fa fa-edit mr-3"></i>Formulario de contacto</a>
+                </p>
+                <p>
+                    <i class="fa fa-envelope mr-3"></i>info@turismoeverest.com
+                </p>
+                <p>
+                    <i class="fa fa-phone mr-3"></i>+34 655 44 33 22
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row d-flex align-items-center">
+
+            <div class="col-md-7 col-lg-8">
+                <p class="text-center text-md-left">© 2020 Copyright:
+                    <a href="#">
+                        <strong>turismoeverest.com</strong>
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                <!-- Social buttons -->
+                <div id="social-media-icons" class="text-center text-md-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Links -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
