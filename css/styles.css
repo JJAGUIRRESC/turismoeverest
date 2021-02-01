@@ -21,8 +21,8 @@ h2 {
 /* Navbar */
 .navbar {
     padding: 0.2rem 2rem;
-    background-color: #c9d7e8;
-    /*background: linear-gradient(0deg, #c9d7e8, #dbe4f0);*/
+    background-color: white;
+    border-bottom: 1px solid #c9d7e8
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -104,7 +104,6 @@ h2 {
     background-color: #c9d7e8;
     padding:1.5rem;
     border-radius: 10px;
-    margin: 1.5rem auto 1.5rem auto;
 }
 
 .form-check{
@@ -119,13 +118,18 @@ h2 {
     background-color:#ecf2f9 ;
 }
 
+#container-contact-form {
+    background:#2E496B;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
 /* Routes */
 #route-everest {
     max-width: 1600px;
     background-color: #c9d7e8;
     padding:1.5rem;
     border-radius: 5px;
-    margin: 1.5rem auto 1.5rem auto;
+    margin: 0 auto 1.5rem auto;
 }
 
 #route-everest .img-fluid{
