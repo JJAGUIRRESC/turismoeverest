@@ -91,7 +91,7 @@ h2 {
 
 #featured-climbers{
     background-color: #c9d7e8;
-    padding:0.5rem 4rem 4rem 4rem;
+    padding:0.5rem 3rem 3rem 3rem;
     margin-top:1.5rem;
     margin-bottom: 1.5rem;
     max-width: 1600px;
@@ -124,12 +124,15 @@ h2 {
 }
 
 /* Routes */
+#container-route-everest {
+    padding: 1.5rem;
+}
+
 #route-everest {
     max-width: 1600px;
     background-color: #c9d7e8;
-    padding:1.5rem;
     border-radius: 5px;
-    margin: 0 auto 1.5rem auto;
+    padding: 1.5rem;
 }
 
 #route-everest .img-fluid{
@@ -151,3 +154,11 @@ h2 {
     padding-top: 0.6em;
 }
 
+/* Desktop version */
+@media (min-width:1281px){
+    
+    /* Featured climbers */
+    #featured-climbers {
+        padding: 0.5rem 4rem 4rem 4rem;
+    }
+}
